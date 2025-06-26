@@ -1,0 +1,47 @@
+# Habit Tracker Pro v1.0.0
+
+🚀 **First stable release** of the professional habit reporting tool!
+
+## ✨ Key Features
+- 📊 CSV to Markdown report conversion
+- 🎨 Customizable Jinja2 templates
+- ⚡ One-click execution
+- 🌍 UTF-8 support for multilingual reports
+- 💼 Pro version promotion integration
+
+## ⚙️ System Requirements
+- Python 3.8+
+- pandas library
+- jinja2 library
+
+## ⬇️ Installation
+```bash
+pip install pandas jinja2
+## 🚦 Usage
+```bash
+python main.py
+```
+
+## 📂 Output
+- Generated report: `reports/habit_report.md`
+
+## 💼 Upgrade to Pro
+[![Get Pro Version](https://img.shields.io/badge/Gumroad-Get_Pro_Version-orange)](https://gumroad.com/l/habittrackerpro)
+
+**Pro Version Benefits**:
+- ✅ PDF export
+- ✅ Advanced analytics
+- ✅ Premium templates
+- ✅ Priority support
+
+## 🐛 Bug Reports & Feature Requests
+Please report issues on our [GitHub Issues](https://github.com/Madaraathub/HabitTrackerPro/issues) page
+
+## ❤️ Acknowledgments
+- Thank you to our early beta testers
+- Inspired by Atomic Habits by James Clear
+
+---
+> "The first version that's stable enough for production use!"  
+> - Madaraathub Development Team
+```
