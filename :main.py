@@ -1,5 +1,7 @@
-import pandas as pd
-from jinja2 import Template
+```python
+     habits = pd.read_csv('habits.csv')
+     with open('habit_tracker_template.txt', 'r', encoding='utf-8') as file:
+    ```
 import os
 import sys
 
