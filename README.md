@@ -1,5 +1,3 @@
-
-
 ```markdown
 # 🚀 Habit Tracker Pro - Professional Reports in Seconds!
 
@@ -106,3 +104,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## 📜 License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+```
