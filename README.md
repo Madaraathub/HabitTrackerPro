@@ -18,7 +18,12 @@
 
 ### Prerequisites
 - Python 3.8 or higher
+## ⚡ Quick Start
 
+## ⬇️ Download  <-- أضف هنا
+Get the latest...
+
+### Prerequisites
 ### Installation
 ```bash
 # Install required libraries
