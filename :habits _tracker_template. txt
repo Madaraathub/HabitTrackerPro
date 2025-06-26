@@ -1,0 +1,20 @@
+# Monthly Habit Report: {{ month }}
+
+**Primary Goal**: {{ goal }}
+
+## Habit Performance
+| Habit       | Completion Rate |
+|-------------|-----------------|
+| {{ habits.habit1 }} | {{ (tracker|selectattr('habit1', 'equalto', 'Yes')|list|length / tracker|length * 100)|round(1) }}% |
+| {{ habits.habit2 }} | {{ (tracker|selectattr('habit2', 'equalto', 'Yes')|list|length / tracker|length * 100)|round(1) }}% |
+| {{ habits.habit3 }} | {{ (tracker|selectattr('habit3', 'equalto', 'Yes')|list|length / tracker|length * 100)|round(1) }}% |
+
+## Daily Tracking
+| Date       | {{ habits.habit1 }} | {{ habits.habit2 }} | {{ habits.habit3 }} | Energy |
+|------------|---------------------|---------------------|---------------------|--------|
+{% for day in tracker -%}
+| {{ day.date }} | {{ day.habit1 }} | {{ day.habit2 }} | {{ day.habit3 }} | {{ day.energy }}/10 |
+{% endfor %}
+
+---
+> "Consistency is the key to success" - Generated on {{ tracker[-1].date }}
