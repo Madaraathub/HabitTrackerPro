@@ -1,31 +1,46 @@
-# 🚀 Habit Tracker Pro - Professional Habit Reports in Seconds!
+# 🚀 Habit Tracker Pro - Professional Reports in Seconds!
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Habit_Tracker_Pro-blue)](https://github.com/Madaraathub/HabitTrackerPro)
 
 > "Saved me 5 hours weekly on client reporting!" - Fitness Coach
 
 ## ✨ Features
 - 📊 Transform CSV data into beautiful reports
-- 🎨 Customizable templates
+- 🎨 Customizable templates using Jinja2
 - ⚡ One-click execution
 - 📈 Habit performance analytics
+- 💼 Commercial-friendly (MIT licensed)
 
 ## ⚡ Quick Start
+
+### Prerequisites
+- Python 3.8 or higher
+
+### Installation
 ```bash
-# 1. Install requirements
-pip install pandas jinja2
+# Install required libraries
+pip install pandas jinja2# Run the report generator
+python main.py==================================================
+Habit Tracker Pro - Report Generator
+==================================================
 
-# 2. Run the generator
-python main.py
+✅ Report generated successfully at reports/habit_report.md
+⭐ Total habits processed: 1
+📅 Days tracked: 3
 
-# 3. Find your report
-open reports/habit_report.md
-.
-├── .gitignore           # Ignore unnecessary files
-├── LICENSE              # MIT License
-├── README.md            # This file
-├── daily_tracker.csv    # Sample daily tracking data
-├── habit_tracker_template.txt # Report template
-├── habits.csv           # Habits configuration
-└── main.py              # Core application
+==================================================
+Upgrade to Pro for PDF export and advanced features:
+👉 https://gumroad.com/l/habittrackerpro
+==================================================.
+├── .github/workflows/ci.yml
+├── .gitignore
+├── LICENSE
+├── README.md
+├── daily_tracker.csv
+├── habit_tracker_template.txt
+├── habits.csv
+├── main.py
+└── reports/.gitkeep
